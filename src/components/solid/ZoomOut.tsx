@@ -1,21 +1,17 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
 
-const SvgZoomOut = (props: SVGProps<SVGSVGElement>) => (
-  <svg width="1rem" height="1rem" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM2 8a6 6 0 1 1 10.89 3.476l4.817 4.817a1 1 0 0 1-1.414 1.414l-4.816-4.816A6 6 0 0 1 2 8Z"
-      fill="#4A5568"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M5 8a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"
-      fill="#4A5568"
-    />
-  </svg>
-);
+function SvgZoomOut(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+        fill="#4A5568"
+      />
+      <path fillRule="evenodd" clipRule="evenodd" d="M5 8a1 1 0 011-1h4a1 1 0 110 2H6a1 1 0 01-1-1z" fill="#4A5568" />
+    </svg>
+  );
+}
 
 export default SvgZoomOut;

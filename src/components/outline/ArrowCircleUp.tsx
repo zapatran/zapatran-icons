@@ -1,16 +1,17 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
 
-const SvgArrowCircleUp = (props: SVGProps<SVGSVGElement>) => (
-  <svg width="1rem" height="1rem" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path
-      d="m9 11 3-3m0 0 3 3m-3-3v8m0-13a9 9 0 1 1 0 18 9 9 0 0 1 0-18Z"
-      stroke="#4A5568"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+function SvgArrowCircleUp(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={24} height={24} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"
+        stroke="#4A5568"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
 
 export default SvgArrowCircleUp;

@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
 
-const SvgMail = (props: SVGProps<SVGSVGElement>) => (
-  <svg width="1rem" height="1rem" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M2.003 5.884 10 9.882l7.997-3.998A2 2 0 0 0 16 4H4a2 2 0 0 0-1.997 1.884Z" fill="#4A5568" />
-    <path d="m18 8.118-8 4-8-4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.118Z" fill="#4A5568" />
-  </svg>
-);
+function SvgMail(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" fill="#4A5568" />
+      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" fill="#4A5568" />
+    </svg>
+  );
+}
 
 export default SvgMail;

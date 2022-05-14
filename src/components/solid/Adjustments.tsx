@@ -1,13 +1,14 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
 
-const SvgAdjustments = (props: SVGProps<SVGSVGElement>) => (
-  <svg width="1rem" height="1rem" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path
-      d="M5 4a1 1 0 0 0-2 0v7.268a2 2 0 0 0 0 3.464V16a1 1 0 1 0 2 0v-1.268a2 2 0 0 0 0-3.464V4ZM11 4a1 1 0 1 0-2 0v1.268a2 2 0 0 0 0 3.464V16a1 1 0 1 0 2 0V8.732a2 2 0 0 0 0-3.464V4ZM16 3a1 1 0 0 1 1 1v7.268a2 2 0 0 1 0 3.464V16a1 1 0 1 1-2 0v-1.268a2 2 0 0 1 0-3.464V4a1 1 0 0 1 1-1Z"
-      fill="#4A5568"
-    />
-  </svg>
-);
+function SvgAdjustments(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"
+        fill="#4A5568"
+      />
+    </svg>
+  );
+}
 
 export default SvgAdjustments;

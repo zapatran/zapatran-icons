@@ -19,7 +19,7 @@ export const useNotification = () => {
   const handleCopy = (icon: string) => () => {
     timeout.current && clearTimeout(timeout.current);
     toggleAlert(false);
-    const importString = `import { ${icon} } from '@gamestry1/gamestry-icons'`;
+    const importString = `import { ${icon} } from '@zapatran/icons'`;
     navigator.clipboard.writeText(importString).then(() => toggleAlert(true));
   };
 
@@ -41,8 +41,8 @@ export const useNotification = () => {
 export const SolidIcons = () => {
   const { handleCopy, alertVisible } = useNotification();
   return (
-    <div className="p-8 text-purple-600">
-      <div className="h-16">
+    <>
+      <div>
         {alertVisible && (
           <p className="bg-green-100 border border-green-600 text-green-800 w-56 mx-auto p-3 rounded-lg">
             Import copied
@@ -59,15 +59,15 @@ export const SolidIcons = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 
 export const OutlineIcons = () => {
   const { handleCopy, alertVisible } = useNotification();
   return (
-    <div className="p-8 text-purple-600">
-      <div className="h-16">
+    <>
+      <div>
         {alertVisible && (
           <p className="bg-green-100 border border-green-600 text-green-800 w-56 mx-auto p-3 rounded-lg">
             Import copied
@@ -84,7 +84,7 @@ export const OutlineIcons = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

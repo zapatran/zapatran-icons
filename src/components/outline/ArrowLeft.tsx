@@ -1,16 +1,17 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
 
-const SvgArrowLeft = (props: SVGProps<SVGSVGElement>) => (
-  <svg width="1rem" height="1rem" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path
-      d="m10 19-7-7m0 0 7-7m-7 7h18"
-      stroke="#4A5568"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+function SvgArrowLeft(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={24} height={24} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <path
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+        stroke="#4A5568"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
 
 export default SvgArrowLeft;
