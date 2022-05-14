@@ -9,3 +9,4 @@ This package has all heroicons
 - run `npm run generate` in order to generate all iconComponents
 
 - run `npm run commit` to make a new commit with semantic versioning and push to github.
+
