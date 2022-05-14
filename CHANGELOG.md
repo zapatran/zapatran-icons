@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/zapatran/zapatran-icons/compare/v1.0.2...v1.0.3) (2022-05-14)
+
+
+### Bug Fixes
+
+* change name ([242900c](https://github.com/zapatran/zapatran-icons/commit/242900c00971e9892c34ee949b99fe7fb37d18ef))
+
 ## [1.0.2](https://github.com/zapatran/zapatran-icons/compare/v1.0.1...v1.0.2) (2022-05-14)
 
 
