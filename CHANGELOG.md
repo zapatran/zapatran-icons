@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/zapatran/zapatran-icons/compare/v1.0.0...v1.0.1) (2022-05-14)
+
+
+### Bug Fixes
+
+* fix npm publish ([ac66f49](https://github.com/zapatran/zapatran-icons/commit/ac66f498987a41e04e0122bfa5486df4b19f038b))
+
 # 1.0.0 (2022-05-14)
 
 
