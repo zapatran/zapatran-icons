@@ -7,6 +7,7 @@
   "license": "SEE LICENSE IN FILE: LICENSE",
   "homepage": "",
   "repository": {
+    "type": "git",
     "url": "https://github.com/zapatran/zapatran-icons.git"
   },
   "main": "dist/cjs/index.js",
