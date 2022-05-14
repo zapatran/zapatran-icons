@@ -1,0 +1,16 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "declaration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "ES2020",
+    "outDir": "./dist/esm"
+  }
+}
