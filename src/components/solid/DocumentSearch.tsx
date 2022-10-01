@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgDocumentSearch(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={20} height={20} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2h-1.528A6 6 0 004 9.528V4z"
         fill="#374151"

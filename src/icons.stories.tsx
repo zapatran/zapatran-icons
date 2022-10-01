@@ -2,6 +2,7 @@ import React, { ButtonHTMLAttributes, useEffect, useRef, useState } from 'react'
 
 import * as outlineIcons from './components/outline';
 import * as solidIcons from './components/solid';
+import * as socialIcons from './components/social';
 
 const Icon = ({ onClick, children }: ButtonHTMLAttributes<HTMLButtonElement>) => (
   <button
@@ -88,3 +89,27 @@ export const OutlineIcons = () => {
   );
 };
 
+export const SocialIcons = () => {
+  const { handleCopy, alertVisible } = useNotification();
+  return (
+    <>
+      <div>
+        {alertVisible && (
+          <p className="bg-green-100 border border-green-600 text-green-800 w-56 mx-auto p-3 rounded-lg">
+            Import copied
+          </p>
+        )}
+      </div>
+      <div className="flex flex-wrap gap-4">
+        {Object.keys(socialIcons).map(icon => {
+          const SocialIcon = socialIcons[icon as keyof typeof socialIcons];
+          return (
+            <Icon key={icon} onClick={handleCopy(icon)}>
+              <SocialIcon />
+            </Icon>
+          );
+        })}
+      </div>
+    </>
+  );
+};

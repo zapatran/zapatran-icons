@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgSearchCircle(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={20} height={20} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z" fill="#374151" />
       <path
         fillRule="evenodd"

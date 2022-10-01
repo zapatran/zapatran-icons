@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgInboxIn(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={20} height={20} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z"
         fill="#4A5568"

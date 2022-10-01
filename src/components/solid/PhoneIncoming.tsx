@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgPhoneIncoming(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={20} height={20} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         d="M14.414 7l3.293-3.293a1 1 0 00-1.414-1.414L13 5.586V4a1 1 0 10-2 0v4.003a.996.996 0 00.617.921A.997.997 0 0012 9h4a1 1 0 100-2h-1.586z"
         fill="#4A5568"

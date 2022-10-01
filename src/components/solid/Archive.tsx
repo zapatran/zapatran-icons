@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgArchive(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={20} height={20} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={20} height={20} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path d="M4 3a2 2 0 100 4h12a2 2 0 100-4H4z" fill="#4A5568" />
       <path
         fillRule="evenodd"

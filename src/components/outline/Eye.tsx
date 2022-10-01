@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function SvgEye(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={24} height={24} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width={24} height={24} fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
         stroke="#4A5568"

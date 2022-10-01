@@ -50,9 +50,10 @@
     "react": "^17.0.0"
   },
   "scripts": {
+    "generate:social": "npx @svgr/cli --typescript -d src/components/social src/svg/social",
     "generate:outline": "npx @svgr/cli --typescript -d src/components/outline src/svg/outline",
     "generate:solid": "npx @svgr/cli --typescript -d src/components/solid src/svg/solid",
-    "generate": "npm run generate:outline && npm run generate:solid",
+    "generate": "npm run generate:outline && npm run generate:solid && npm run generate:social",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build": "npm run build:cjs && npm run build:esm",
