@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zapatran/zapatran-icons/compare/v1.0.4...v1.1.0) (2022-10-01)
+
+
+### Features
+
+* add social icons ([33e3f17](https://github.com/zapatran/zapatran-icons/commit/33e3f17f7da4c6626e5876da679dd6108fa28c0b))
+
 ## [1.0.4](https://github.com/zapatran/zapatran-icons/compare/v1.0.3...v1.0.4) (2022-05-14)
 
 
