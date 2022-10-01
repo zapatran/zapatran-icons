@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/zapatran/zapatran-icons/compare/v2.0.0...v2.1.0) (2022-10-01)
+
+
+### Features
+
+* add new icons ([91919ed](https://github.com/zapatran/zapatran-icons/commit/91919ed76c52abe09413854ce6a8ab16fa185f56))
+
 # [2.0.0](https://github.com/zapatran/zapatran-icons/compare/v1.1.0...v2.0.0) (2022-10-01)
 
 
