@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/zapatran/zapatran-icons/compare/v1.1.0...v2.0.0) (2022-10-01)
+
+
+### Features
+
+* improve icons ([300612c](https://github.com/zapatran/zapatran-icons/commit/300612c3035dcf43edad3f120c7cd5f0b5442a39))
+
+
+### BREAKING CHANGES
+
+* change props
+
 # [1.1.0](https://github.com/zapatran/zapatran-icons/compare/v1.0.4...v1.1.0) (2022-10-01)
 
 
